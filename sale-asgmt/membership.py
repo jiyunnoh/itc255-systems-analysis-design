@@ -7,5 +7,8 @@ class Membership:
     def getJoinDate(self):
         return self.joindate
 
+    def getLevel(self):
+        return self.level
+
     def setLevel(self, level):
         self.level=level

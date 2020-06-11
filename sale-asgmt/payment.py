@@ -11,4 +11,4 @@ class Payment:
         return self.totalAmount
 
     def __str__(self):
-        return "The total amount is " + str(self.totalAmount)
+        return "The total amount is $" + str(self.totalAmount)
